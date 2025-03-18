@@ -1,0 +1,6 @@
+debug: bool = true,
+address: []const u8 = "127.0.0.1",
+port: u16 = 2105,
+client_port: u16 = 2105,
+min_buf_time: usize = 1,
+max_buf_time: usize = 50,

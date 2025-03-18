@@ -1,0 +1,32 @@
+.{
+    .name = .knoopunt,
+    .version = "0.0.0",
+    .fingerprint = 0x44f9f004a51269a6,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .clap = .{
+            .url = "https://github.com/Hejsil/zig-clap/archive/refs/tags/0.10.0.tar.gz",
+            .hash = "clap-0.10.0-oBajB434AQBDh-Ei3YtoKIRxZacVPF1iSwp3IX_ZB8f0",
+        },
+        .zul = .{
+            .url = "https://github.com/karlseguin/zul/archive/d9142c73aedc5698beba58b3fbf2bcfe69864778.tar.gz",
+            .hash = "zul-0.0.0-1oDot0BCBwA9cUo5OOrPs5NGmvoM7sk1ztfbdfL7mh4P",
+        },
+        .logz = .{
+            .url = "https://github.com/karlseguin/log.zig/archive/db6ec9818cc6dabf853c3271d8fecb7af5d4755c.tar.gz",
+            .hash = "logz-0.0.0-O9YWXlhHAgD8srw1WqQ2SPde3T674hoD3mGFPCVCWFPS",
+        },
+        .aio = .{
+            .url = "git+https://github.com/Cloudef/zig-aio.git#36b5da39756d4969da6680f091f0b522eb63008e",
+            .hash = "aio-0.0.0-776t3qVVBQCS5e6tiQ2qs6ds8N3NaEvbxqLg6womBPI_",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
