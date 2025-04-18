@@ -17,14 +17,16 @@ const targets = [_]std.Target.Query{
         .cpu_arch = .aarch64,
         .os_tag = .macos,
     },
-    .{
-        .cpu_arch = .x86_64,
-        .os_tag = .windows,
-    },
-    .{
-        .cpu_arch = .aarch64,
-        .os_tag = .windows,
-    },
+    // Currently Windows is disabled because of the odd way I accept connections
+    // This will be fixed at some other point in time
+    //    .{
+    //        .cpu_arch = .x86_64,
+    //        .os_tag = .windows,
+    //    },
+    //    .{
+    //        .cpu_arch = .aarch64,
+    //        .os_tag = .windows,
+    //    },
 };
 
 const default_version_string = "0.0.0-dev";
